@@ -10,13 +10,15 @@ coreschema==0.0.4
 dj-database-url==0.5.0
 Django==3.2.9
 django-bootstrap-v5==1.0.5
+django-cors-headers==3.10.0
 django-heroku==0.3.1
 django-mathfilters==1.0.0
 django-registration==3.2
-djangorestframework-simplejwt==5.0.0
 django-tinymce==3.3.0
 django-url-or-relative-url-field==0.1.2
+django-utils-six==2.0
 djangorestframework==3.12.4
+djangorestframework-simplejwt==5.0.0
 drf-yasg==1.20.0
 gunicorn==20.1.0
 idna==3.3
@@ -24,11 +26,13 @@ importlib-metadata==3.10.1
 inflection==0.5.1
 itypes==1.2.0
 Jinja2==3.0.2
+lts==0.0.2
 MarkupSafe==2.0.1
 packaging==21.2
 Pillow==8.3.2
 psycopg2==2.9.1
 pycodestyle==2.7.0
+PyJWT==2.3.0
 pyparsing==2.4.7
 python-decouple==3.5
 pytz==2021.3
@@ -43,5 +47,3 @@ uritemplate==4.1.1
 urllib3==1.26.7
 whitenoise==5.3.0
 zipp==3.6.0
-django-cors-headers==3.10.0
-
