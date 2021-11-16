@@ -169,5 +169,18 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'shalin.rono@student.moringaschool.com'
+EMAIL_HOST_PASSWORD = ''
+
+# adding config
+cloudinary.config( 
+  cloud_name = "dtee9x5yu", 
+  api_key = "163743296544585", 
+  api_secret = "eVRfXr_wf-SOEbUOZ5XhdclyR2s" 
+)
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 django_heroku.settings(locals())
